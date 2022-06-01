@@ -1,8 +1,8 @@
 #include <stdlib.h>
 
-int main(void) {
-
-    while(1);
-
-    return EXIT_FAILURE;
+int main(int argc, char *argv[])
+{
+    while(1){};
+/* Nao deveria chegar aqui */
+    return EXIT_SUCCESS;
 }
